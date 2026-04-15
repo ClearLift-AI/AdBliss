@@ -1,0 +1,16 @@
+{
+  "id": "adbliss",
+  "name": "AdBliss",
+  "description": "Unified ad performance data across Meta, Google, TikTok, LinkedIn, Shopify, Stripe, HubSpot, Klaviyo, and more. Query metrics, revenue, and campaign data — or let your agent make optimization recommendations.",
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "Your AdBliss API key (ab_live_... or ab_test_...). Get one at app.adbliss.io/settings"
+      }
+    },
+    "required": ["apiKey"],
+    "additionalProperties": false
+  }
+}

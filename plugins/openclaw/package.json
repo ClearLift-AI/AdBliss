@@ -1,0 +1,27 @@
+{
+  "name": "@adbliss/openclaw-plugin",
+  "version": "1.0.0",
+  "description": "AdBliss plugin for OpenClaw — unified ad data, revenue, and campaign management",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ClearLift-AI/AdBliss.git",
+    "directory": "plugins/openclaw"
+  },
+  "keywords": ["openclaw", "openclaw-plugin", "adbliss", "advertising", "mcp", "meta-ads", "google-ads", "tiktok", "shopify", "stripe"],
+  "openclaw": {
+    "extensions": ["./index.ts"],
+    "compat": {
+      "pluginApi": ">=2026.3.24-beta.2",
+      "minGatewayVersion": "2026.3.24-beta.2"
+    },
+    "build": {
+      "openclawVersion": "2026.3.24-beta.2",
+      "pluginSdkVersion": "2026.3.24-beta.2"
+    }
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.0"
+  }
+}
